@@ -1,0 +1,814 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "sku": "WIR-001",
+      "name": "2.5mm² PVC Copper Wire (Red)",
+      "unit": "Meter",
+      "totalQty": 2000,
+      "warehouseQty": 1450,
+      "lowStockThreshold": 200,
+      "unitPrice": 117,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 2,
+      "sku": "WIR-002",
+      "name": "2.5mm² PVC Copper Wire (Black)",
+      "unit": "Meter",
+      "totalQty": 2000,
+      "warehouseQty": 1380,
+      "lowStockThreshold": 200,
+      "unitPrice": 211,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 3,
+      "sku": "WIR-003",
+      "name": "4mm² PVC Copper Wire (Yellow)",
+      "unit": "Meter",
+      "totalQty": 1000,
+      "warehouseQty": 820,
+      "lowStockThreshold": 100,
+      "unitPrice": 151,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 4,
+      "sku": "WIR-004",
+      "name": "6mm² PVC Copper Wire (Green)",
+      "unit": "Meter",
+      "totalQty": 500,
+      "warehouseQty": 95,
+      "lowStockThreshold": 100,
+      "unitPrice": 246,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 5,
+      "sku": "MCB-001",
+      "name": "MCB 16A Single Pole (Legrand)",
+      "unit": "Piece",
+      "totalQty": 200,
+      "warehouseQty": 142,
+      "lowStockThreshold": 20,
+      "unitPrice": 366,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 6,
+      "sku": "MCB-002",
+      "name": "MCB 32A Double Pole (Legrand)",
+      "unit": "Piece",
+      "totalQty": 100,
+      "warehouseQty": 67,
+      "lowStockThreshold": 15,
+      "unitPrice": 483,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 7,
+      "sku": "MCB-003",
+      "name": "RCCB 40A 30mA (Schneider)",
+      "unit": "Piece",
+      "totalQty": 80,
+      "warehouseQty": 8,
+      "lowStockThreshold": 10,
+      "unitPrice": 255,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 8,
+      "sku": "FIX-001",
+      "name": "LED Downlight 12W (Philips)",
+      "unit": "Piece",
+      "totalQty": 300,
+      "warehouseQty": 215,
+      "lowStockThreshold": 30,
+      "unitPrice": 240,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 9,
+      "sku": "FIX-002",
+      "name": "LED Panel 24W 600×600 (Havells)",
+      "unit": "Piece",
+      "totalQty": 150,
+      "warehouseQty": 88,
+      "lowStockThreshold": 20,
+      "unitPrice": 76,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 10,
+      "sku": "FIX-003",
+      "name": "Outdoor Floodlight 50W (Philips)",
+      "unit": "Piece",
+      "totalQty": 60,
+      "warehouseQty": 5,
+      "lowStockThreshold": 8,
+      "unitPrice": 188,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 11,
+      "sku": "CON-001",
+      "name": "20mm Conduit Pipe (PVC)",
+      "unit": "Length (3m)",
+      "totalQty": 400,
+      "warehouseQty": 310,
+      "lowStockThreshold": 50,
+      "unitPrice": 161,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 12,
+      "sku": "CON-002",
+      "name": "25mm Conduit Pipe (PVC)",
+      "unit": "Length (3m)",
+      "totalQty": 300,
+      "warehouseQty": 240,
+      "lowStockThreshold": 40,
+      "unitPrice": 169,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 13,
+      "sku": "SWT-001",
+      "name": "Modular Switch 6A (Anchor)",
+      "unit": "Piece",
+      "totalQty": 500,
+      "warehouseQty": 380,
+      "lowStockThreshold": 60,
+      "unitPrice": 13,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 14,
+      "sku": "SWT-002",
+      "name": "Modular Socket 16A (Anchor)",
+      "unit": "Piece",
+      "totalQty": 500,
+      "warehouseQty": 355,
+      "lowStockThreshold": 60,
+      "unitPrice": 378,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 15,
+      "sku": "CBL-001",
+      "name": "4-Core Armoured Cable 6mm²",
+      "unit": "Meter",
+      "totalQty": 500,
+      "warehouseQty": 340,
+      "lowStockThreshold": 50,
+      "unitPrice": 145,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 16,
+      "sku": "CBL-002",
+      "name": "3-Core Armoured Cable 4mm²",
+      "unit": "Meter",
+      "totalQty": 400,
+      "warehouseQty": 200,
+      "lowStockThreshold": 40,
+      "unitPrice": 174,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 17,
+      "sku": "SWT-003",
+      "name": "Modular Fan Regulator (Anchor)",
+      "unit": "Piece",
+      "totalQty": 200,
+      "warehouseQty": 150,
+      "lowStockThreshold": 20,
+      "unitPrice": 242,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 18,
+      "sku": "SWT-004",
+      "name": "Blanking Plate (Anchor)",
+      "unit": "Piece",
+      "totalQty": 300,
+      "warehouseQty": 280,
+      "lowStockThreshold": 50,
+      "unitPrice": 55,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 19,
+      "sku": "BOX-001",
+      "name": "Modular Box 4 Module (Surface)",
+      "unit": "Piece",
+      "totalQty": 150,
+      "warehouseQty": 100,
+      "lowStockThreshold": 30,
+      "unitPrice": 166,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 20,
+      "sku": "BOX-002",
+      "name": "Modular Box 6 Module (Flush)",
+      "unit": "Piece",
+      "totalQty": 250,
+      "warehouseQty": 180,
+      "lowStockThreshold": 40,
+      "unitPrice": 120,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 21,
+      "sku": "MCB-004",
+      "name": "MCB 10A Single Pole (Legrand)",
+      "unit": "Piece",
+      "totalQty": 300,
+      "warehouseQty": 210,
+      "lowStockThreshold": 25,
+      "unitPrice": 481,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 22,
+      "sku": "MCB-005",
+      "name": "MCB 63A Triple Pole (Legrand)",
+      "unit": "Piece",
+      "totalQty": 50,
+      "warehouseQty": 15,
+      "lowStockThreshold": 5,
+      "unitPrice": 217,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 23,
+      "sku": "FIX-004",
+      "name": "LED Tube 20W (Philips)",
+      "unit": "Piece",
+      "totalQty": 500,
+      "warehouseQty": 320,
+      "lowStockThreshold": 50,
+      "unitPrice": 345,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 24,
+      "sku": "FIX-005",
+      "name": "LED Highbay 100W (Havells)",
+      "unit": "Piece",
+      "totalQty": 40,
+      "warehouseQty": 8,
+      "lowStockThreshold": 10,
+      "unitPrice": 334,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 25,
+      "sku": "CON-003",
+      "name": "25mm Flexible Conduit",
+      "unit": "Roll (25m)",
+      "totalQty": 100,
+      "warehouseQty": 60,
+      "lowStockThreshold": 15,
+      "unitPrice": 336,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 26,
+      "sku": "CON-004",
+      "name": "20mm Flexible Conduit",
+      "unit": "Roll (25m)",
+      "totalQty": 120,
+      "warehouseQty": 85,
+      "lowStockThreshold": 20,
+      "unitPrice": 102,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 27,
+      "sku": "MSC-001",
+      "name": "Insulation Tape (Black)",
+      "unit": "Roll",
+      "totalQty": 1000,
+      "warehouseQty": 850,
+      "lowStockThreshold": 100,
+      "unitPrice": 184,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 28,
+      "sku": "MSC-002",
+      "name": "Insulation Tape (Red)",
+      "unit": "Roll",
+      "totalQty": 500,
+      "warehouseQty": 410,
+      "lowStockThreshold": 50,
+      "unitPrice": 361,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 29,
+      "sku": "MSC-003",
+      "name": "Rawl Plugs (6mm)",
+      "unit": "Packet (100)",
+      "totalQty": 200,
+      "warehouseQty": 160,
+      "lowStockThreshold": 30,
+      "unitPrice": 328,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 30,
+      "sku": "MSC-004",
+      "name": "Cable Tie (200mm)",
+      "unit": "Packet (100)",
+      "totalQty": 150,
+      "warehouseQty": 110,
+      "lowStockThreshold": 25,
+      "unitPrice": 420,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 31,
+      "sku": "LUG-001",
+      "name": "Copper Lug 16mm²",
+      "unit": "Piece",
+      "totalQty": 1000,
+      "warehouseQty": 750,
+      "lowStockThreshold": 100,
+      "unitPrice": 32,
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 32,
+      "sku": "LUG-002",
+      "name": "Copper Lug 25mm²",
+      "unit": "Piece",
+      "totalQty": 800,
+      "warehouseQty": 620,
+      "lowStockThreshold": 80,
+      "unitPrice": 426,
+      "createdAt": "2026-01-01"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Alpha Operations Center",
+      "siteAddress": "North Zone Sector A",
+      "status": "ACTIVE",
+      "createdAt": "2026-02-01"
+    },
+    {
+      "id": 2,
+      "name": "Beta Residential Complex",
+      "siteAddress": "West Zone Block B",
+      "status": "ACTIVE",
+      "createdAt": "2026-02-15"
+    },
+    {
+      "id": 3,
+      "name": "Gamma Industrial Unit",
+      "siteAddress": "South Zone Phase 2",
+      "status": "ACTIVE",
+      "createdAt": "2026-03-10"
+    },
+    {
+      "id": 4,
+      "name": "Delta Corporate Office",
+      "siteAddress": "East Zone Tech Park",
+      "status": "COMPLETED",
+      "createdAt": "2026-01-05"
+    },
+    {
+      "id": 5,
+      "name": "Epsilon Commercial Tower",
+      "siteAddress": "Central Business District",
+      "status": "ON_HOLD",
+      "createdAt": "2026-03-20"
+    }
+  ],
+  "allocations": [
+    {
+      "id": 1,
+      "productId": 1,
+      "productName": "2.5mm² PVC Copper Wire (Red)",
+      "productSku": "WIR-001",
+      "productUnit": "Meter",
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "quantity": 300,
+      "allocatedDate": "2026-03-28",
+      "notes": "Phase 1 internal wiring"
+    },
+    {
+      "id": 2,
+      "productId": 5,
+      "productName": "MCB 16A Single Pole (Legrand)",
+      "productSku": "MCB-001",
+      "productUnit": "Piece",
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "quantity": 30,
+      "allocatedDate": "2026-03-28",
+      "notes": "Distribution board MCBs"
+    },
+    {
+      "id": 3,
+      "productId": 8,
+      "productName": "LED Downlight 12W (Philips)",
+      "productSku": "FIX-001",
+      "productUnit": "Piece",
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "quantity": 85,
+      "allocatedDate": "2026-03-30",
+      "notes": "Common areas lighting"
+    },
+    {
+      "id": 4,
+      "productId": 3,
+      "productName": "4mm² PVC Copper Wire (Yellow)",
+      "productSku": "WIR-003",
+      "productUnit": "Meter",
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "quantity": 120,
+      "allocatedDate": "2026-03-30",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "productId": 10,
+      "productName": "Outdoor Floodlight 50W (Philips)",
+      "productSku": "FIX-003",
+      "productUnit": "Piece",
+      "projectId": 3,
+      "projectName": "Gamma Industrial Unit",
+      "quantity": 40,
+      "allocatedDate": "2026-04-01",
+      "notes": "Perimeter lighting"
+    },
+    {
+      "id": 6,
+      "productId": 15,
+      "productName": "4-Core Armoured Cable 6mm²",
+      "productSku": "CBL-001",
+      "productUnit": "Meter",
+      "projectId": 3,
+      "projectName": "Gamma Industrial Unit",
+      "quantity": 100,
+      "allocatedDate": "2026-04-01",
+      "notes": "Main feeder cable"
+    }
+  ],
+  "usages": [
+    {
+      "id": 1,
+      "productId": 1,
+      "productName": "2.5mm� PVC Copper Wire (Red)",
+      "productSku": "SKU-UNKNOWN",
+      "productUnit": "Piece",
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "quantity": 100,
+      "usedDate": "2026-09-23",
+      "notes": "Ground floor"
+    },
+    {
+      "id": 2,
+      "productId": 5,
+      "productName": "MCB 16A Single Pole (Legrand)",
+      "productSku": "SKU-UNKNOWN",
+      "productUnit": "Piece",
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "quantity": 10,
+      "usedDate": "2026-09-24",
+      "notes": "DB1"
+    }
+  ],
+  "workers": [
+    {
+      "id": 1,
+      "name": "Raj Kumar",
+      "phone": "555-01001",
+      "trade": "Electrician",
+      "dailyRate": 800,
+      "createdAt": "2025-01-10",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Amit Singh",
+      "phone": "555-01002",
+      "trade": "Helper",
+      "dailyRate": 500,
+      "createdAt": "2025-02-15",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "Suresh Das",
+      "phone": "555-01003",
+      "trade": "Plumber",
+      "dailyRate": 850,
+      "createdAt": "2025-03-20",
+      "isActive": true
+    },
+    {
+      "id": 4,
+      "name": "Ravi Verma",
+      "phone": "555-01004",
+      "trade": "Electrician",
+      "dailyRate": 800,
+      "createdAt": "2025-05-11",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "Pankaj Yadav",
+      "phone": "555-01005",
+      "trade": "Helper",
+      "dailyRate": 500,
+      "createdAt": "2025-06-30",
+      "isActive": true
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "workerId": 1,
+      "workerName": "Raj Kumar",
+      "workerTrade": "Electrician",
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "startDate": "2026-03-01",
+      "endDate": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "workerId": 2,
+      "workerName": "Amit Singh",
+      "workerTrade": "Electrician",
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "startDate": "2026-03-01",
+      "endDate": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "workerId": 4,
+      "workerName": "Ravi Verma",
+      "workerTrade": "Electrician",
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "startDate": "2026-03-10",
+      "endDate": "",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "workerId": 5,
+      "workerName": "Pankaj Yadav",
+      "workerTrade": "Electrician",
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "startDate": "2026-03-10",
+      "endDate": "",
+      "notes": ""
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "workerId": 1,
+      "workerName": "Raj Kumar",
+      "date": "2026-09-23",
+      "present": true,
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "workerId": 2,
+      "workerName": "Amit Singh",
+      "date": "2026-09-23",
+      "present": true,
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "workerId": 4,
+      "workerName": "Ravi Verma",
+      "date": "2026-09-23",
+      "present": true,
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "notes": ""
+    },
+    {
+      "id": 4,
+      "workerId": 5,
+      "workerName": "Pankaj Yadav",
+      "date": "2026-09-23",
+      "present": true,
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "workerId": 1,
+      "workerName": "Raj Kumar",
+      "date": "2026-09-24",
+      "present": true,
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "workerId": 2,
+      "workerName": "Amit Singh",
+      "date": "2026-09-24",
+      "present": true,
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "workerId": 4,
+      "workerName": "Ravi Verma",
+      "date": "2026-09-24",
+      "present": true,
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "workerId": 5,
+      "workerName": "Pankaj Yadav",
+      "date": "2026-09-24",
+      "present": true,
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "workerId": 1,
+      "workerName": "Raj Kumar",
+      "date": "2026-09-25",
+      "present": true,
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "workerId": 2,
+      "workerName": "Amit Singh",
+      "date": "2026-09-25",
+      "present": true,
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "workerId": 4,
+      "workerName": "Ravi Verma",
+      "date": "2026-09-25",
+      "present": true,
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "workerId": 5,
+      "workerName": "Pankaj Yadav",
+      "date": "2026-09-25",
+      "present": true,
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "notes": ""
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "workerId": 1,
+      "workerName": "Raj Kumar",
+      "amount": 5000,
+      "paymentDate": "2026-09-23",
+      "reference": "Cash"
+    },
+    {
+      "id": 2,
+      "workerId": 2,
+      "workerName": "Amit Singh",
+      "amount": 3000,
+      "paymentDate": "2026-09-24",
+      "reference": "UPI"
+    }
+  ],
+  "clientPayments": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "amount": 150000,
+      "paymentDate": "2026-03-05",
+      "reference": "Advance",
+      "notes": "Phase 1"
+    },
+    {
+      "id": 2,
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "amount": 200000,
+      "paymentDate": "2026-03-15",
+      "reference": "Milestone 1",
+      "notes": ""
+    }
+  ],
+  "directPurchases": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "projectName": "Alpha Operations Center",
+      "amount": 45000,
+      "purchaseDate": "2026-03-10",
+      "description": "Local hardware items",
+      "invoiceNo": "INV-101"
+    },
+    {
+      "id": 2,
+      "projectId": 2,
+      "projectName": "Beta Residential Complex",
+      "amount": 12000,
+      "purchaseDate": "2026-03-18",
+      "description": "Emergency wire spool",
+      "invoiceNo": "CASH-92"
+    }
+  ],
+  "users": [
+    {
+      "id": "admin@nexusportal.demo",
+      "email": "admin@nexusportal.demo",
+      "name": "Demo Admin",
+      "role": "ADMIN",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "guest@nexusportal.demo",
+      "email": "guest@nexusportal.demo",
+      "name": "Demo Guest",
+      "role": "USER",
+      "createdAt": "2026-01-02"
+    }
+  ],
+  "_meta": {
+    "nextProductId": 3,
+    "nextProjectId": 2,
+    "nextAllocationId": 2,
+    "nextUsageId": 1,
+    "nextWorkerId": 3,
+    "nextAssignmentId": 1,
+    "nextAttendanceId": 3,
+    "nextPaymentId": 1,
+    "nextClientPaymentId": 1,
+    "nextDirectPurchaseId": 1
+  },
+  "settings": {
+    "companyName": "Nexus Portal",
+    "companyAddress": "",
+    "companyPhone": "+91",
+    "companyEmail": "admin@nexusportal.demo",
+    "defaultLowStockThreshold": 50,
+    "defaultDailyRate": 600,
+    "currency": "USD",
+    "reportFooter": "Confidential — Nexus Portal",
+    "companyLogo": "/logo.jpg"
+  },
+  "branding": {
+    "companyName": "Nexus Portal",
+    "companyLogo": "/logo.jpg",
+    "companyAddress": "123 Innovation Drive, Tech Park",
+    "companyPhone": "+1 (555) 019-8273",
+    "companyEmail": "admin@nexusportal.demo",
+    "gstNumber": "DEMO-GST-12345",
+    "reportFooter": "Confidential - Nexus Portal"
+  }
+}
