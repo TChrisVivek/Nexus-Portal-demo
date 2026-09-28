@@ -102,25 +102,25 @@ export default function Dashboard() {
                   </h2>
                   </div>
                   
-                  <div className="glass rounded-3xl p-8 border border-white/5 bg-white/[0.01]">
-                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+                  <div className="bg-gradient-to-br from-cyan-600 to-blue-700 rounded-3xl p-8 border border-cyan-400/30 shadow-[0_12px_40px_rgba(6,182,212,0.4)]">
+                     <div className="grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-8">
                         <div>
-                           <p className="text-[10px] font-black text-text-muted uppercase tracking-widest mb-1">Stock In</p>
-                           <p className="text-2xl font-black text-text-primary tabular-nums tracking-tighter">{metrics?.warehouseQtyTotal || 0}</p>
+                           <p className="text-[10px] font-black text-cyan-100 uppercase tracking-widest mb-1">Stock In</p>
+                           <p className="text-3xl font-black text-white tabular-nums tracking-tighter">{metrics?.warehouseQtyTotal || 0}</p>
                         </div>
                         <div>
-                           <p className="text-[10px] font-black text-text-muted uppercase tracking-widest mb-1">Allocated</p>
-                           <p className="text-2xl font-black text-cyan-glow tabular-nums tracking-tighter">{metrics?.allocatedQtyTotal || 0}</p>
+                           <p className="text-[10px] font-black text-cyan-100 uppercase tracking-widest mb-1">Allocated</p>
+                           <p className="text-3xl font-black text-cyan-200 tabular-nums tracking-tighter">{metrics?.allocatedQtyTotal || 0}</p>
                         </div>
                          <div>
-                            <p className="text-[10px] font-black text-text-muted uppercase tracking-widest mb-1">Efficiency</p>
-                            <p className="text-2xl font-black text-text-primary tabular-nums tracking-tighter">
+                            <p className="text-[10px] font-black text-cyan-100 uppercase tracking-widest mb-1">Efficiency</p>
+                            <p className="text-3xl font-black text-white tabular-nums tracking-tighter">
                               {loading ? "..."
                                 : metrics?.warehouseQtyTotal === 0 ? "0%"
                                 : `${Math.min(100, Math.round(((metrics?.allocatedQtyTotal || 0) / (metrics?.warehouseQtyTotal || 1)) * 100))}%`
                               }
                             </p>
-                            <p className="text-[9px] font-bold text-text-muted mt-1 uppercase tracking-widest">
+                            <p className="text-[9px] font-bold text-cyan-200 mt-1 uppercase tracking-widest">
                               {loading ? "" : `${metrics?.allocatedQtyTotal || 0} / ${metrics?.warehouseQtyTotal || 0} units`}
                             </p>
                          </div>

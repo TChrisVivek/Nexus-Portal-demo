@@ -90,7 +90,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <div className="relative flex min-h-screen">
                 <Sidebar isAdmin={(session as SessionWithRole).user?.role === "ADMIN"} />
                 <main className="flex-1 lg:pl-64 min-h-screen">
-                  <div className="max-w-[1400px] mx-auto px-5 sm:px-7 lg:px-10 py-8 pt-20 lg:pt-10">
+                  <div className="w-full max-w-[2000px] mx-auto px-5 sm:px-7 lg:px-10 py-8 pt-20 lg:pt-10">
                     {children}
                   </div>
                 </main>
