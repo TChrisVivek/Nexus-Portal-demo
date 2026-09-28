@@ -1,5 +1,6 @@
 import { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
+import CredentialsProvider from "next-auth/providers/credentials";
 import { adminSupabase } from "@/lib/supabase";
 
 // ─── Safe Supabase wrappers ───────────────────────────────────────────────────
@@ -92,7 +93,21 @@ async function saveUserToLocalStore(user: {
 // ─── Auth Options ─────────────────────────────────────────────────────────────
 
 export const authOptions: NextAuthOptions = {
+  secret: process.env.NEXTAUTH_SECRET || "dummy-secret-for-demo-purposes-only",
   providers: [
+    CredentialsProvider({
+      name: 'Guest',
+      credentials: {},
+      async authorize() {
+        return {
+          id: 'guest@nexusportal.demo',
+          email: 'guest@nexusportal.demo',
+          name: 'Guest User',
+          role: 'ADMIN'
+        };
+      }
+    }),
+
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID || "",
       clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",

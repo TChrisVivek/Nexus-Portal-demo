@@ -146,6 +146,14 @@ export function LoginScreen() {
               <ArrowRight size={16} className="text-slate-400 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-200" />
             </button>
 
+            {/* Guest Demo sign-in button */}
+            <button
+              onClick={() => signIn("credentials", { callbackUrl: "/" })}
+              className="mt-4 group w-full flex items-center justify-center gap-3 px-5 py-4 rounded-2xl bg-cyan-600 text-white hover:bg-cyan-500 active:scale-[0.98] transition-all duration-200 shadow-[0_2px_12px_rgba(6,182,212,0.2)] hover:shadow-[0_4px_20px_rgba(6,182,212,0.4)]"
+            >
+              <span className="font-bold text-sm">Guest Demo Login</span>
+            </button>
+
             {/* Security note */}
             <div className="mt-6 flex items-start gap-2.5 px-4 py-3.5 rounded-xl bg-white/[0.02] border border-white/[0.05]">
               <CheckCircle2 size={14} className="text-cyan-500 mt-0.5 flex-shrink-0" />
