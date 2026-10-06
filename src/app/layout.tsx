@@ -7,6 +7,7 @@ import { AuthProvider } from "@/components/AuthProvider";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "@/lib/authOptions";
 import { LoginScreen, PendingScreen, BlockedScreen } from "@/components/AuthScreens";
+import { AlertTriangle } from "lucide-react";
 
 interface SessionWithRole {
   user?: { name?: string | null; email?: string | null; image?: string | null; role?: string };
@@ -89,7 +90,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             ) : (
               <div className="relative flex min-h-screen">
                 <Sidebar isAdmin={(session as SessionWithRole).user?.role === "ADMIN"} />
-                <main className="flex-1 lg:pl-64 min-h-screen">
+                <main className="flex-1 lg:pl-64 min-h-screen flex flex-col">
+                  <div className="bg-amber-500/10 border-b border-amber-500/20 px-4 py-3 flex items-center justify-center gap-2 text-amber-700 text-sm font-bold z-50">
+                    <AlertTriangle size={16} />
+                    This is a Demo Environment. Any changes made will not be saved permanently.
+                  </div>
                   <div className="w-full max-w-[2000px] mx-auto px-5 sm:px-7 lg:px-10 py-8 pt-20 lg:pt-10">
                     {children}
                   </div>

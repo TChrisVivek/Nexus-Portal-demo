@@ -59,7 +59,7 @@ export default function Dashboard() {
          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 animate-fade-in-up">
             <MetricCard 
                title="Stock Value" 
-               value={loading ? "..." : `₹${(metrics?.totalStockValue || 0).toLocaleString('en-IN')}`} 
+               value={loading ? "..." : `₹${new Intl.NumberFormat('en-IN', { notation: "compact", maximumFractionDigits: 2 }).format(metrics?.totalStockValue || 0)}`} 
                icon={BarChart3}
                subtitle={`${metrics?.totalSkus || 0} items in inventory`}
                variant="cyan"

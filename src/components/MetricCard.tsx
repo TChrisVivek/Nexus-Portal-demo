@@ -66,11 +66,11 @@ export function MetricCard({
 
       {/* Content */}
       <div className="flex items-start justify-between mb-4 pl-3">
-        <div className="min-w-0 flex-1">
-          <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-widest mb-2">
+        <div className="min-w-0 flex-1 pr-4">
+          <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-widest mb-2 truncate">
             {title}
           </p>
-          <p className={cn("text-3xl font-bold leading-none tabular-nums tracking-tight", S.valueColor)}>
+          <p className={cn("text-3xl font-bold leading-none tabular-nums tracking-tight truncate", S.valueColor)}>
             {value}
           </p>
         </div>
